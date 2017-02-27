@@ -1,0 +1,43 @@
+#content {
+	width: 85%;
+	margin: 0 auto;
+}
+#msg {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.time {
+	float: right;
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: #666;
+	margin-right: 15px;
+	width: 10%;
+}
+.mainctext {
+	/*min-height: 100px;*/
+	/*max-height: 150px;*/
+	overflow: hidden;	
+}
+.artical {
+	float: left;
+	position: relative;
+	font-size: 1.5rem;
+	width: 75%;
+	height: 12rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.artical:after {
+	content: "...";
+	font-weight: bold;
+	position: absolute;
+	bottom: 5px;
+	
+}
+.img {
+	height: 15%;
+	width: 15%;
+	float: right;
+	margin-top: 30px;
+}
